@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container my-5 text-center">
+        <div class="box m-auto w-75 p-5">
+            <h1 class="text-white">Smart Login System</h1>
+            <div class="input-box">
+                <input id="signupName" class="form-control my-3" placeholder="Enter your name" type="text">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="text"/>
+                <i class="fa-solid fa-envelope"></i> 
+            </div>
+            <div class="input-box">
+                <input id="signupPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <p id="error"></p>
+            <button onclick="signUp()" class="btn btn-light w-100 my-3">Sign Up</button>
+            <p class="text-white">You have an account? <a class="text-white" href="index.html">Sign In</a></p>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-image: url(../photo-1523821741446-edb2b68bb7a0.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#home{
+    height: 75vh;
+}
+.box{
+ box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+ border:2px solid rgba(255,255,255,.2);
+ backdrop-filter: BLUR(10px);
+}
+.input-box{
+    position: relative;
+    width: 100%;
+}
+.input-box i{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+input{
+    background-color: transparent !important;
+    color: #fff !important; 
+}
+input::placeholder{
+    color: #fff !important;
+}
+p{
+    font-size: 18px;
+}
+.nav-link{
+    border: 1px solid #dc3545;
+}
+
+
